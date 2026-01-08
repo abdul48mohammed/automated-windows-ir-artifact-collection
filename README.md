@@ -19,6 +19,18 @@ It is designed to improve speed, consistency, and evidential reliability during 
 - Windows OS
 - SHA-256 hashing for integrity validation
 
+## How to Run
+
+1. Ensure Python 3 is installed on Windows
+2. Open Command Prompt as Administrator
+3. Navigate to the script directory
+4. Run:
+
+   python <script_name>.py
+
+The script will create an output directory containing
+forensic artifacts and a hash log.
+
 ## Usage
 The script is executed locally on a Windows system using the command line.  
 All collected artifacts are automatically organised into structured directories, and cryptographic hashes are generated for integrity verification.
